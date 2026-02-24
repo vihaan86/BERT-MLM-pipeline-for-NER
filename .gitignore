@@ -1,0 +1,20 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# AI/ML Specific
+# These folders in your screenshot should be ignored 
+# as they usually contain large binary weights
+checkpoints/
+checkpoints_ner/
+bert/
+
+# Large files
+*.bin
+*.pth
+*.onnx
+
+# Tools
+.cursor/
+.env
